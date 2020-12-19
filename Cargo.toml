@@ -7,3 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+#conrod_core = "0.71.0"
+conrod = { version = "0.55.0", features = ["glium", "winit"] }
+#find_folder="0.3.0"
+
